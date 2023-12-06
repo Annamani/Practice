@@ -4,3 +4,4 @@ employee_name="Annamani Kamma"
 first_name=employee_name.split(" ")
 #Frist name retuns a tuple
 print(first_name[0])
+print(first_name[1])
