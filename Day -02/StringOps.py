@@ -4,7 +4,8 @@ last_name="Kamma"
 words="lives in "
 Country="Denmark"
 # String Concatenation
-print(first_name+" "+last_name+","+words+" "+Country+" ")
+complete_string=first_name+" "+last_name+","+words+" "+Country+"."
+print(complete_string)
 # Length of a string
 print(len(first_name))
 # String Lower case
@@ -21,3 +22,8 @@ print("Modified text:", new_text)
 sample = "   Some spaces around   "
 stripped_text = sample.strip()
 print("Stripped text:", stripped_text)
+
+# Substring
+substring = "lives in"
+if substring in complete_string:
+    print(substring, "found in the text")
