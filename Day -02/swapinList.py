@@ -14,7 +14,7 @@ def swapList(newList):
      
     return newList
      
-# Driver code
+
 newList = [12, 35, 9, 56, 24]
  
 print(swapList(newList))
