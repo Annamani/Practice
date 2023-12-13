@@ -17,3 +17,7 @@ print(fruits)
 numbers = (1, 2, 3) 
 print(numbers)
 
+# dictionary literal
+alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} 
+print(alphabets)
+
