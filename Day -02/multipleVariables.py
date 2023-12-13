@@ -8,3 +8,7 @@ print(address)
 location=capital="Denmark"
 print(location)
 print(capital)
+
+# list literal
+fruits = ["apple", "mango", "orange"] 
+print(fruits)
