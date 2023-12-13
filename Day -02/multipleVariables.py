@@ -12,3 +12,8 @@ print(capital)
 # list literal
 fruits = ["apple", "mango", "orange"] 
 print(fruits)
+
+# tuple literal
+numbers = (1, 2, 3) 
+print(numbers)
+
