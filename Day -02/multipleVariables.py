@@ -20,4 +20,10 @@ print(numbers)
 # dictionary literal
 alphabets = {'a':'apple', 'b':'ball', 'c':'cat'} 
 print(alphabets)
+# set literal
+vowels = {'a', 'e', 'i' , 'o', 'u'} 
+print(vowels)
 
+# set literal
+vowels = {'a', 'e', 'i' , 'o', 'u'} 
+print(vowels)
