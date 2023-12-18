@@ -1,20 +1,22 @@
 def checkPrime(num):
     flag=False
-    for i in range(1,num+1):
+    if num==1:
+        print(num,"is not a Prime number")
+    for i in range(2,num):
         if num%i==0:
-            flag=False
-        else:
             flag=True
+            break
+        else:
+            flag=False
     if flag==True:
-        print(num + "is a Prime number")
+        print(num, "is not a Prime number")
     else:
-        print(num +" is not a Prime number")
+        print(num, " is a Prime number")
 
 
 
 
 
 
-
-number= int("Enter the number: ")
+number= int(input("Enter the number: "))
 checkPrime(number)
