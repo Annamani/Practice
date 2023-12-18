@@ -8,6 +8,7 @@ def checkPrime(num):
             break
         else:
             flag=False
+    
     if flag==True:
         print(num, "is not a Prime number")
     else:
