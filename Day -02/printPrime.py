@@ -2,9 +2,10 @@ def checkPrime(num):
     flag=False
     if num==1:
         print(num,"is not a Prime number")
-    for i in range(2,num):
+    for i in range(2,num+1):
         if num%i==0:
             flag=True
+            print(i)
             break
         else:
             flag=False
