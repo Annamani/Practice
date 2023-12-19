@@ -1,4 +1,5 @@
 num= int(input("Enter number: "))
+# Sum of natuaral numbers
 if num < 0:
    print("Enter a positive number")
 else:
