@@ -4,3 +4,4 @@ class Vehicle:
 
 v = Vehicle()
 print(type(v).__name__)
+print(v.__class__.__name__)
