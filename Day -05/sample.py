@@ -1,5 +1,3 @@
 number=int(input("enter the number: "))
-for i in range(1,number+1):
-    if i % 2==0:
-        print(i)
-         
+if number % 2==0:
+    print(number,"is a even number")         
