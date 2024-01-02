@@ -9,12 +9,12 @@
 #     if number%2==0:
 #         print(number)
 
-num= int(input("Enter number: "))
-if num < 0:
-   print("Enter a positive number")
-else:
-   sum = 0
-   while(num > 0):
-       sum += num
-       num -= 1
-   print("The sum is", sum)
+# strings = ("one", "two", "three", "four", "five")
+
+# for val in strings:
+# 	print(len(val))
+     
+ count = 0
+while count < 3:
+    print("Hello.")
+    count = count + 1
