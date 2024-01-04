@@ -1,3 +1,4 @@
+# Input2 variables along with sign
 def calculation(a,b,sign):
     if sign=="+":
         return a+b
