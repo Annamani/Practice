@@ -1,3 +1,4 @@
+# outer function
 def outerFun(a, b):
     # Inner function
     def cal(a,b):
