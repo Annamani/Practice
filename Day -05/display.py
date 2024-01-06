@@ -1,4 +1,4 @@
-# # Show Employee details
+#Show Employee details
 def showEmployee(name,salary):
     print("Employee ",name,"salary is:", salary)
 
