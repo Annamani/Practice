@@ -9,4 +9,6 @@ people[3]['age'] = '24'
 people[3]['sex'] = 'Female'
 people[3]['married'] = 'No'
 print(people[3])
+people[1]['married']="yes"
+print(people[1])
 
